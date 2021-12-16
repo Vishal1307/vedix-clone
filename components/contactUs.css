@@ -46,3 +46,81 @@
 #signinLock:hover {
 	border: 0.063rem solid #e78471;
 }
+#mapLocation {
+	width: 71.875rem;
+	height: 25rem;
+	margin: auto;
+	margin-top: 1.25rem;
+}
+#connect {
+	display: flex;
+	width: 21.875rem;
+	justify-content: space-between;
+	margin: auto;
+	margin-top: 1.25rem;
+}
+#connect > div {
+	border: 0.063rem solid #f2e9ac;
+}
+#connect > div {
+	width: 3.125rem;
+	height: 0rem;
+	margin-top: 2.5rem;
+	color: #f2e9ac;
+	background-color: #f2e9ac;
+}
+#connect > p {
+	font-size: 1.563rem;
+	font-weight: bold;
+}
+#whatsappUs {
+	display: flex;
+	gap: 0.625rem;
+	width: 21.938rem;
+	margin: auto;
+	margin-top: 1.25rem;
+}
+#whatsappUs > div > p {
+	margin-top: -0.125rem;
+}
+.subHeadings {
+	font-weight: bold;
+	color: #525152;
+}
+#writeToUs {
+	display: flex;
+	gap: 0.625rem;
+	width: 22.5rem;
+	margin: auto;
+	margin-top: 1.25rem;
+}
+#writeToUs > div > p {
+	margin-top: -0.125rem;
+}
+#grievanceOfficer {
+	border: 0.063rem solid #e4cc91;
+	text-align: center;
+	width: 12.5rem;
+	height: 2.188rem;
+	margin-left: 35.938rem;
+	padding-top: 1.25rem;
+	border-radius: 0.188rem;
+	margin-top: 1.25rem;
+	cursor: pointer;
+}
+#grievanceOfficer > a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #1a1a1a;
+}
+#locationDetails {
+	display: flex;
+	gap: 0.625rem;
+	width: 22.5rem;
+	margin: auto;
+	margin-top: 2.5rem;
+}
+#locationDetails > div > p {
+	margin-top: 0.063rem;
+	line-height: 1.438rem;
+}
