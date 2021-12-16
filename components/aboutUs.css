@@ -1,0 +1,208 @@
+* {
+	font-family: sans-serif;
+}
+#headerDiv {
+	display: flex;
+	padding: 0.625rem;
+	gap: 0.625rem;
+	width: 68.75rem;
+	margin: auto;
+}
+#skinDiv {
+	border: 0.063rem solid black;
+	width: 10rem;
+	height: 2.5rem;
+	border-radius: 0.125rem;
+	margin-left: 37.5rem;
+}
+#hairDiv {
+	border: 0.063rem solid black;
+	width: 10rem;
+	height: 2.5rem;
+	border-radius: 0.125rem;
+}
+#signinLock {
+	border: 0.063rem solid black;
+	width: 2.5rem;
+	height: 2.5rem;
+	border-radius: 0.125rem;
+}
+#skinDiv > a > img {
+	width: 100%;
+	height: 100%;
+}
+#hairDiv > a > img {
+	width: 100%;
+	height: 100%;
+}
+#signinLock > a > img {
+	width: 50%;
+	height: 60%;
+	padding-left: 0.6rem;
+	padding-top: 0.5rem;
+}
+#skinDiv:hover,
+#hairDiv:hover,
+#signinLock:hover {
+	border: 0.063rem solid #e78471;
+}
+#vedixStory {
+	background-color: #f4eede;
+	height: 18.125rem;
+	margin-top: 0.938rem;
+}
+#vedixStoryHeading {
+	text-align: center;
+	font-size: 1.563rem;
+	font-weight: bold;
+	padding-top: 2.813rem;
+	color: #414042;
+}
+#bar {
+	border: 0.125rem solid #e78471;
+	background-color: #e78471;
+	width: 3.125rem;
+	margin-left: 41.25rem;
+	margin-top: -1.25rem;
+}
+#vedixStoryContent {
+	width: 68.75rem;
+	margin: auto;
+	margin-top: 1.563rem;
+}
+#vedixStoryContentHeading {
+	font-weight: bold;
+	color: #414042;
+}
+#vedixStoryContentDetails {
+	line-height: 1.563rem;
+	color: #535352;
+}
+#founderDetails {
+	display: flex;
+	text-align: center;
+	width: 60rem;
+	margin: auto;
+	justify-content: space-between;
+	margin-top: 2.813rem;
+}
+.founderDetailsImageDiv > img {
+	width: 100%;
+	height: 100%;
+}
+.founderDetailsName {
+	font-weight: bold;
+	color: #454446;
+}
+.founderDetailsDesignation {
+	color: #535352;
+}
+.ayurvedGrid {
+	display: flex;
+	gap: 3.125rem;
+	width: 69.375rem;
+	line-height: 1.563rem;
+	color: #535352;
+	margin: auto;
+	margin-top: 1.563rem;
+}
+.ayurvedGridImageDiv {
+	width: 241.875rem;
+	height: 27.5rem;
+}
+.ayurvedGridImageDiv > img {
+	width: 100%;
+	height: 100%;
+}
+#ayurvedGridContent {
+	margin-top: 7.5rem;
+}
+.ayurvedGrid > div > h3 {
+	color: #e78471;
+	padding-top: 4.375rem;
+}
+#awardcontainer {
+	background-color: #fffbf0;
+}
+#awardsAndAccolades {
+	background-color: #fffbf0;
+	display: flex;
+	text-align: left;
+	width: 60rem;
+	margin: auto;
+	justify-content: space-between;
+	margin-top: 2.813rem;
+}
+.awardsAndAccoladesImageDiv {
+	width: 18.75rem;
+}
+.awardsAndAccoladesImageDiv > img {
+	width: 100%;
+	height: 100%;
+}
+.awardName {
+	font-weight: bold;
+	color: #454446;
+}
+.awardDetails {
+	color: #535352;
+}
+#awardHeading {
+	text-align: center;
+	font-size: 1.563rem;
+	font-weight: bold;
+	padding-top: 2.813rem;
+	color: #414042;
+}
+#awardBar {
+	border: 0.125rem solid #e78471;
+	background-color: #e78471;
+	width: 3.163rem;
+	margin-left: 39.25rem;
+	margin-top: -1.25rem;
+}
+#joinFamily {
+	height: 18.125rem;
+	margin-top: 0.938rem;
+}
+#joinFamilyHeading {
+	text-align: center;
+	font-size: 1.563rem;
+	font-weight: bold;
+	padding-top: 2.813rem;
+	color: #414042;
+}
+#joinFamilybar {
+	border: 0.125rem solid #e78471;
+	background-color: #e78471;
+	width: 3.5rem;
+	margin-left: 41.063rem;
+	margin-top: -1.25rem;
+}
+#joinFamilyContent {
+	width: 68.75rem;
+	margin: auto;
+	margin-top: 1.563rem;
+}
+#joinFamilyContentDetails {
+	line-height: 1.563rem;
+	color: #535352;
+	text-align: center;
+}
+#joinFamilyBtn {
+	border: 0.063rem solid black;
+	width: 15rem;
+	height: 3.125rem;
+	margin: auto;
+	border-radius: 0.188rem;
+	background-color: #e78471;
+}
+#joinFamilyBtn > a > img {
+	width: 100%;
+	height: 100%;
+	border-radius: 0.188rem;
+}
+#joinFamilyBtn:hover {
+	cursor: pointer;
+	filter: invert(95%);
+}
