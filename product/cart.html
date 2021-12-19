@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            text-align: center;
+
+        }
+        #med{
+            width:25%;
+            margin-top: 5%;
+        }
+        
+    </style>
+</head>
+<body>
+    <img src="vedix_logo.PNG" alt="" id="logo">
+    <div id="cart">
+
+
+    </div>
+
+    <button onclick='window.location.href="payment.html"'>Buy Product</button>
+
+</body>
+</html>
+
+<script>
+
+    var product_img = JSON.parse(localStorage.getItem('product-image'));
+
+    console.log(product_img);
+
+    var div = document.getElementById('cart');
+
+    var image = document.createElement('img');
+
+    image.src = product_img;
+    image.setAttribute('id','med');
+
+    div.appendChild(image);
+
+
+
+</script>
