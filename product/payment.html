@@ -1,41 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        input{
-            margin:1%;
-            /* margin-left: 5%; */
-        }
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			input {
+				margin: 1%;
+				/* margin-left: 5%; */
+			}
 
-        body{
-            text-align:center;
-        }
-        #fields{
-            margin-top:5%;
-        }
-    </style>
-</head>
-<body>
-    <img src="vedix_logo.PNG" alt="">
-  <div id="fields">
+			body {
+				text-align: center;
+			}
+			#fields {
+				margin-top: 5%;
+			}
+		</style>
+	</head>
+	<body>
+		<img src="vedix_logo.PNG" alt="" />
+		<h1>Payment Details</h1>
+		<div id="fields">
+			Name: <input type="text" placeholder="Enter name" /> <br />
+			Mobile: <input type="text" placeholder="Enter mobile" /> <br />
 
-    Name: <input type="text" placeholder="Enter name"> <br>
-    Mobile: <input type="text" placeholder="Enter mobile"> <br>
+			Card no: <input type="text" placeholder="Enter card number" /> <br />
 
-    Card no: <input type="text" placeholder="Enter card number"> <br>
+			cvv: <input type="text" placeholder="352" /><br />
 
-    cvv: <input type="text" placeholder="352"><br>
-    
-    <button onclick="alert('Congratulations'),window.location.href='../home-page/vedix_body.html'">Submit</button>
-
-
-
-
-  </div>
-
-</body>
+			<button
+				onclick="alert('Congratulations'),window.location.href='../home-page/vedix_body.html'"
+			>
+				Submit
+			</button>
+		</div>
+	</body>
 </html>
